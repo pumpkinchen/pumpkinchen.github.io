@@ -154,6 +154,129 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-homework4" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/05/28/homework4/">homework</a>
+    </h1>
+  
+
+        
+        <a href="/2017/05/28/homework4/" class="archive-article-date">
+  	<time datetime="2017-05-28T04:25:51.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-05-28</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="实验四-Gradle使用"><a href="#实验四-Gradle使用" class="headerlink" title="实验四  Gradle使用"></a>实验四  Gradle使用</h1><h1 id="一、实验目的"><a href="#一、实验目的" class="headerlink" title="一、实验目的"></a>一、实验目的</h1><ul>
+<li>掌握Gradle的使用</li>
+</ul>
+<h1 id="二、实验任务"><a href="#二、实验任务" class="headerlink" title="二、实验任务"></a>二、实验任务</h1><ol>
+<li>生成多个apk </li>
+</ol>
+<ol>
+<li>管理依赖库</li>
+</ol>
+<ol>
+<li>编译提速</li>
+</ol>
+<ol>
+<li><p>增加编译内存</p>
+</li>
+<li><p>调用终端指令 </p>
+</li>
+<li><p>精简资源</p>
+</li>
+</ol>
+<ol>
+<li>清除缓存</li>
+</ol>
+<h1 id="三、实验步骤与结果"><a href="#三、实验步骤与结果" class="headerlink" title="三、实验步骤与结果"></a>三、实验步骤与结果</h1><p>1． 生成多个apk </p>
+<p>①    新建一个新的Android工程</p>
+<p>​        <img src="C:\Users\aaa\Desktop\1.png" alt="1">             </p>
+<p>②    创建渠道占位符</p>
+<p> <img src="C:\Users\aaa\Desktop\2.png" alt="2"></p>
+<p>③    配置Gradle脚本</p>
+<p> <img src="C:\Users\aaa\Desktop\3.png" alt="3"></p>
+<p>④    多渠道打包</p>
+<p> <img src="C:\Users\aaa\Desktop\4.png" alt="4"></p>
+<p>2． 管理依赖库</p>
+<p>①    在module中配置如下代码</p>
+<p> <img src="C:\Users\aaa\Desktop\5.png" alt="5"></p>
+<p>② 在android和dependencies两个列表中配置<img src="C:\Users\aaa\Desktop\6.png" alt="6"></p>
+<p><img src="C:\Users\aaa\Desktop\7.png" alt="7">3． 编译提速</p>
+<p>①    电脑更换固态硬盘</p>
+<p>②    减少本地依赖库项目的依赖，多使用arr进行依赖</p>
+<p>③    在gradle.properties中添加代码</p>
+<p> <img src="C:\Users\aaa\Desktop\8.png" alt="8"></p>
+<p>④    在build.gradle中添加代码</p>
+<p>  <img src="C:\Users\aaa\Desktop\9.png" alt="9"></p>
+<p>4． 增加编译内存</p>
+<p>在gradle.properties中修改代码</p>
+<p> <img src="C:\Users\aaa\Desktop\10.png" alt="10"></p>
+<p>5． 调用终端指令</p>
+<p>①    新建一个task</p>
+<p> <img src="C:\Users\aaa\Desktop\11.png" alt="11"></p>
+<p>②    调用终端指令gradlew  testcmd</p>
+<p>6． 精简资源</p>
+<p>①     使用minifyEnabled指令配合shrinkResources指令对代码进行优化和精简。</p>
+<p> <img src="C:\Users\aaa\Desktop\12.png" alt="12"></p>
+<p>②使用快捷指令“ctrl+shift+A”来直接进行资源精简，输入“remove unused resources”执行该命令</p>
+<p> <img src="C:\Users\aaa\Desktop\13.png" alt="13"></p>
+<p>7． 清除缓存</p>
+<ul>
+<li>使用gradlew clean指令清除缓存</li>
+</ul>
+<h1 id="四、实验小结"><a href="#四、实验小结" class="headerlink" title="四、实验小结"></a>四、实验小结</h1><ul>
+<li>通过对gradle的学习,了解了gradle的强大功能，让android开发的依赖管理、库管理、渠道管理变得更加方便。认识了build.gradle和module.build.gradle,学会了利用Gradle依赖管理、加速、增加编译内存、调用终端指令、精简资源、清除本地缓存等功能。</li>
+</ul>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">homework4</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2017/05/28/homework4/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+
+
+
+
+
+
+
+  
     <article id="post-homework3" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -501,6 +624,10 @@
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color4">homework</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">homework4</a>
               </li>
             
             <div class="clearfix"></div>
